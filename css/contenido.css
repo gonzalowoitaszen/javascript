@@ -1,0 +1,71 @@
+                                          /* Generales */
+
+.h1, .p, .p-3, .card-text{
+    font-family: 'Comfortaa', cursive;
+    color: yellow;
+}
+
+.header {
+    color: darkslategray;
+}
+.imagen{
+    size: 130px;
+}
+
+
+.body{
+    background-color: black;
+}
+
+.i{
+    color: magenta;
+    width: 30px;
+    margin-top: 1rem;
+}
+
+.f{
+color: blue;
+width: 30px;
+
+}
+
+.li{ 
+    margin-top: 1rem;
+}
+
+                                            /* index */
+
+
+
+                                            
+                                             /* Tienda */
+
+
+.div{
+    margin-top: 20rem;
+    margin-left: 2rem;
+}
+
+.row{ 
+
+}
+
+.img{
+    height: 200px;
+}
+
+.p{
+    margin-top: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
