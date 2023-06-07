@@ -49,24 +49,49 @@
 
 <body class="body">
 
-<main class="div">
-  <div class="row container-fluid">
-              <img class="imagen col-md-3 col-xl-3" src="../img/auto-cinderella-jack.jpg" alt="auto-cinderella-jack">
-              <img class="imagen col-md-3 col-xl-3" src="../img/auto-lemon-kix.jpg" alt="auto-lemon-kix">
-              <img class="imagen col-md-3 col-xl-3" src="../img/auto-orange-bud.jpg" alt="auto-orange-bud">
-              <img class="imagen col-md-3 col-xl-3" src="../img/auto-skywalker-haze.jpg" alt="auto-skywalker-haze">
-              
-          
-          
+  <main class="div">
+    <div class="row container-fluid">
+        <div class="col-sm-3 col-md-3 col-xl-3">
+            <img class="imagen" src="../img/auto-cinderella-jack.jpg" data-aos="zoom-in" alt="auto-cinderella-jack">
+            <div>
+              <div id="container-1"></div>
+              <button class="boton"id="preguntar-precios-btn-1">Preguntar precios 1</button>
+              <div id="precios-guardados-1"></div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-xl-3">
+            <img class="imagen" src="../img/auto-lemon-kix.jpg" data-aos="zoom-in" alt="auto-lemon-kix">
+            <div>
+              <div id="container-2"></div>
+              <button class="boton" id="preguntar-precios-btn-2">Preguntar precios 2</button>
+              <div id="precios-guardados-2"></div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-xl-3">
+            <img class="imagen" src="../img/auto-orange-bud.jpg" data-aos="zoom-in" alt="auto-orange-bud">
+            <div>
+              <div id="container-3"></div>
+              <button class="boton" id="preguntar-precios-btn-3">Preguntar precios 3</button>
+              <div id="precios-guardados-3"></div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-xl-3">
+            <img class="imagen" src="../img/auto-skywalker-haze.jpg" data-aos="zoom-in" alt="auto-skywalker-haze">
+            <div>
+              <div id="container-4"></div>
+              <button class="boton" id="preguntar-precios-btn-4">Preguntar precios 4</button>
+              <div id="precios-guardados-4"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 col-md-3 col-xl-3">
+      <div>
+        <div id="container-2"></div>
+        <button class="boton" id="obtener-chiste-btn">Toca Aquí Para Leer Un Chiste De Chuck Norris</button>
+      </div>
+  </div>
 </main>
-<div>
-  <button class="boton" id="preguntar-precios-btn">Preguntar precios</button>
-        
-  <div id="container"></div>
-  
-  <div id="precios-guardados"></div>
 
-</div>
       
 <footer id="footer" class="footer-1">
   <div class="main-footer widgets-dark typo-light text-center">
@@ -131,7 +156,7 @@
       </div>
     </div>
 </footer>
-
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="../js/inicio.js"></script>    
         <script>
             AOS.init({
@@ -139,8 +164,11 @@
             }
             
             );
-            </script>    
+            </script> 
+
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 </body>
