@@ -1,6 +1,5 @@
 
 
-
 function preguntarPrecios(identificador) {
   const mensajeDeBienvenida =
     "Ingrese el código de la planta que desea comprar: \n" +
